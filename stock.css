@@ -1,0 +1,11 @@
+.accordion{
+    --bs-accordion-btn-bg:black;
+    --bs-accordion-active-bg:blue;
+    --bs-accordion-active-bg:white;
+    --bs-accordion-bg:black;
+    --bs-accordion-color:white;
+}
+.accordion-button:not(.collapsed){
+    box-shadow:none;
+    
+}
