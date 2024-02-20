@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CashIQ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,200;1,300;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background-color: black; /* Set background color to black */
+    }
+
+    /* Override gradient background */
+    #title {
+      background: black !important;
+    }
+
+    .btn-xl {
+      font-size: 1.5rem;
+      padding: 0.75rem 1.5rem;
+    }
+  </style>
+</head>
+
+<body>
+    <section id="title">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">CashIQ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item me-3">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown me-3">
+                  <a class="nav-link dropdown-toggle" href="products.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="investing.html">Investing</a></li>
+                    <li><a class="dropdown-item" href="per_fin.html">Personal Finances</a></li>
+                    <li><a class="dropdown-item" href="banking.html">Banking</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link" aria-current="page" href="#">Community</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+  <section id="content">
+    <div class="container-fluid justify-content-sm-left mb-5">
+      <h2 class="service pt-4 mt-3">Investing</h2>
+      <hr style="border: 0; border-top: 5px white; border-radius: 80%; width: 110px;height:2px;"> <!-- Added hr element -->
+      <br>
+      <div class="row">
+        <div class="col">
+          <a href="stocks.html" class="btn btn-primary btn-xl px-4 me-lg-3 d-block mb-2"><i class="fas fa-money-bill-wave"></i> Stocks</a>
+        </div>
+        <div class="col">
+          <a href="bonds.html" class="btn btn-primary btn-xl px-4 me-lg-3 d-block mb-2"><i class="fas fa-hand-holding-usd"></i> Bonds</a>
+        </div>
+        <div class="col">
+          <a href="etfs.html" class="btn btn-primary btn-xl px-4 me-lg-3 d-block mb-2"><i class="fas fa-chart-pie"></i> ETFs</a>
+        </div>
+        <div class="col">
+          <a href="fos.html" class="btn btn-primary btn-xl px-4 me-lg-3 d-block mb-2"><i class="fas fa-hand-holding"></i> F&Os</a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid justify-content-sm-left mb-5">
+      <h2 class=" service pt-4 mt-3">Personal Finance</h2>
+      <hr style="border: 0; border-top: 5px solid white; border-radius: 80%; width: 110px;"> <!-- Added hr element -->
+      <br>
+      <div class="row">
+        <div class="col">
+          <a href="budget.html" class="btn btn-primary btn-xl px-4 me-lg-3 d-block mb-2"><i class="fas fa-money-check-alt"></i> Budget</a>
+        </div>
+        <div class="col">
+          <a href="sip.html" class="btn btn-primary btn-xl px-4 me-lg-3 d-block mb-2"><i class="fas fa-money-check"></i> SIPs</a>
+        </div>
+        <div class="col">
+          <a href="taxes.html" class="btn btn-primary btn-xl px-4 me-lg-3 d-block mb-2"><i class="fas fa-file-invoice-dollar"></i> Taxes</a>
+        </div>
+        <div class="col">
+          <a href="ret_plan.html" class="btn btn-primary btn-xl px-4 me-lg-3 d-block mb-2"><i class="fas fa-user-clock"></i> Retirement Planning</a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid justify-content-sm-left mb-5">
+      <h2 class="service pt-4 mt-3">Banking</h2>
+      <hr style="border: 0; border-top: 5px solid white; border-radius: 80%; width: 110px;">
+      <br>
+      <div class="row">
+        <div class="col">
+          <a href="savings.html" class="btn btn-primary btn-xl px-4 me-lg-3 d-block mb-2"><i class="fas fa-piggy-bank"></i> Savings Account</a>
+        </div>
+        <div class="col">
+          <a href="cards.html" class="btn btn-primary btn-xl px-4 me-lg-3 d-block mb-2"><i class="far fa-credit-card"></i> Credit/Debit Cards</a>
+        </div>
+        <div class="col">
+          <a href="loans.html" class="btn btn-primary btn-xl px-4 me-lg-3 d-block mb-2"><i class="fas fa-money-bill-alt"></i> Loans</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container-fluid">
+    <footer class="mt-5 pt-5">
+      <div class="row container mx-auto pb-5">
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+          <h2>CashIQ</h2>
+          <p>Elevate Your Financial IQ: Educate, Empower, Excel!!</p>
+        </div>
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+          <h5 class="pb-2">Services</h5>
+          <ul class=" text-uppercase list-unstyled">
+            <li><a href="">Investing</a></li>
+            <li><a href="">Personal Finance</a></li>
+            <li><a href="">Banking</a></li>
+          </ul>
+        </div>
+        <div class="footer-one col-lg-3 col-md-6 col-12">
+          <h5 class="pb-2">Contact Us</h5>
+          <div>
+            <h6 class="text-uppercase">address</h6>
+            <p>123 street name,city,IN</p>
+          </div>
+          <div>
+            <h6 class="text-uppercase">Phone</h6>
+            <p>1234567890</p>
+          </div>
+          <div>
+            <h6 class="text-uppercase">Email</h6>
+            <p>abc123@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="copyright mt-5">
+        <div class="row container mx-auto">
+          <div class="col-lg-3 col-md-6 col-12">
+            <img src="img/payment.png" alt="">
+          </div>
+          <div class="col-lg-4 col-md-6 col-12 text-nowrap">
+            <p>CashIQ->E-Finance 2024. All Rights Reserved</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>

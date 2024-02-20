@@ -1,0 +1,106 @@
+
+body{
+  color: black !important;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+#content{
+  color:black;
+}
+hr{
+  width: 30px;
+  height: 2px;
+  background-color: white;
+}
+h6,h1,h2,p{
+  color: white;
+}
+
+.nav-link,.nav-item{
+  color:white;
+  align-items: center;
+}
+.nav-link:hover,.nav-item:hover{
+  color:blue;
+}
+.navbar-brand{
+  color: white;
+  padding-left: 10px;
+}
+.navbar {
+  background-color: black !important;
+}
+.navbar-nav {
+  margin: auto;
+  text-align: center;
+}
+
+.navbar-nav .nav-item {
+  display: inline-block;
+}
+footer{
+  background-color: black
+  ;
+  padding-bottom: 100px;
+}
+
+footer h2{
+  color: white;
+  font-weight: 800;
+  font-size: 30;
+}
+footer h5{
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+footer li{
+  padding-bottom: 4px;
+}
+
+footer li a{
+  font-size: 0.8rem;
+  color: #999;
+  text-decoration: none;
+}
+
+footer li a:hover{
+  color: white;
+}
+
+footer p{
+  color: #999;
+  font-size: 0.8rem;
+}
+
+footer .copyright a{
+  color: #000;
+  width: 38px;
+  height: 38px;
+  background-color: #fff;
+  display: inline-block;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+  transition: 0.3s ease;
+  margin :0 5px;
+
+}
+footer .copyright a:hover{
+  color: black;
+  background-color: blue;
+}
+
+#content{
+  background-color: black;
+}
+
+i{
+  color: white;
+}
+.service{
+  color: white;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CashIQ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,200;1,300;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+          background-color: black; /* Set background color to black */
+        }
+        .custom-accordion .card {
+      background-color: black;
+      color: white;/* Change this to your desired background color */
+    }
+    </style>
+</head>
+<body>
+    <section id="title">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">CashIQ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item me-3">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown me-3">
+                  <a class="nav-link dropdown-toggle" href="products.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="investing.html">Investing</a></li>
+                    <li><a class="dropdown-item" href="per_fin.html">Personal Finances</a></li>
+                    <li><a class="dropdown-item" href="banking.html">Banking</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link" aria-current="page" href="#">Community</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <div>
+        <h1>Stocks</h1>
+        <p>Stocks represent ownership in a company, offering potential for growth.
+            Investors buy and sell stocks in the stock market to profit.Stock prices
+            fluctuate based on company performance and market conditions.Understanding
+            risks and conducting research are essential for successful stock investing.</p>
+        <hr>
+      </div>
+      <section class="menu-lists">
+        <div class="accordion custom-accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    How Stocks Work
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                   <p>Stocks work through the stock market, where buyers and sellers trade shares
+                    of publicly listed companies. The price of stocks is determined by supply
+                    and demand—when more people want to buy a stock (demand), its price goes up,
+                    and when more people want to sell a stock (supply), its price goes down.
+                    Stock prices are also influenced by factors like company earnings, news, and
+                    market trends.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    Benefits of Investing in Stocks
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                    <p>Investing in stocks can offer several benefits, including the potential for capital appreciation (making money as the stock price goes up) and dividends (payments made by some companies to their shareholders). Stocks also provide liquidity, meaning you can easily buy and sell them on the stock market, allowing for flexibility in managing your investments.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    Risks of Investing in Stocks
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                    <p>While stocks can offer the potential for high returns, they also come with risks. Stock prices can be volatile, meaning they can fluctuate widely in a short period. Additionally, investing in individual stocks carries the risk of company-specific issues, such as poor management decisions or industry downturns. It's important for investors to be aware of these risks and diversify their portfolios to help mitigate them.
+                    </p>               
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                <p>Stratergies for stock investing</p>                  
+                </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                   <p>There are various strategies for investing in stocks, depending on individual goals, risk tolerance, and investment horizon. Common strategies include value investing (buying undervalued stocks), growth investing (investing in companies with strong growth potential), and dividend investing (focusing on stocks that pay regular dividends). Investors may also choose between active management (constantly buying and selling stocks) and passive management (holding a diversified portfolio for the long term). Each strategy has its own benefits and considerations, and it's essential for investors to research and choose the approach that best aligns with their financial objectives.
+                </p>               
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="//code.tidio.co/jfbgzlrr7mf8idrpon9baozfwjwgeure.js" async></script>
+    <script src="https://cdn.auth0.com/js/auth0/9.12/auth0.min.js"></script>
+</body>
+</html>
